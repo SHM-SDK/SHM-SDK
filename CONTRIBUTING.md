@@ -46,7 +46,7 @@ directory. Hardware-specific tests may be skipped when the required platform is
 unavailable, but the pull request must state what was not run and why.
 
 Additional component-specific commands are documented in the
-[developer guide](website/zh/docs/developer-guide.md).
+[developer guide](https://shm-sdk.github.io/docs/zh/developer-guide.html).
 
 ## Reporting security issues
 

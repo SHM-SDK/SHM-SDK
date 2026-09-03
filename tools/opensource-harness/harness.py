@@ -111,7 +111,7 @@ def check_required_files(harness: Harness) -> None:
 
 
 def check_repository_layout(harness: Harness) -> None:
-    required = ["shm-lib", "ds", "malloc", "tests", "demos", "website"]
+    required = ["shm-lib", "ds", "malloc", "tests", "demos"]
     missing = [name for name in required if not (ROOT / name).is_dir()]
     if missing:
         harness.fail("repository layout", "missing: " + ", ".join(missing))
@@ -188,7 +188,7 @@ def documentation_files(files: Iterable[Path]) -> list[Path]:
     }
     for path in files:
         name = relative(path)
-        if name in root_names or name.startswith("website/zh/docs/") or name.startswith("website/en/"):
+        if name in root_names:
             if path.suffix.lower() == ".md" and path.is_file():
                 selected.append(path)
     return selected
@@ -342,7 +342,6 @@ def check_shell_syntax(harness: Harness) -> None:
     scripts = [
         "verify_docs.sh",
         "demos/build.sh",
-        "website/serve.sh",
         "tests/YCSB-C/build.sh",
         "tests/YCSB-C/run_shm_ds.sh",
         "malloc/lsmalloc/build.sh",
@@ -465,21 +464,6 @@ def check_g2_stress(harness: Harness) -> None:
             harness.pass_("G2 replicated-pointer stress run", last_output(test_result.stdout, 8))
 
 
-def check_documentation_build(harness: Harness) -> None:
-    if shutil.which("sphinx-build") is None:
-        harness.warn("Sphinx documentation build", "sphinx-build not installed; install website/requirements.txt")
-        return
-    with tempfile.TemporaryDirectory(prefix="cxl-sdk-docs-") as directory:
-        result = run(
-            "sphinx-build", "-n", "-W", "-b", "html",
-            "website/zh/docs", directory, timeout=300,
-        )
-        if result.returncode:
-            harness.fail("Sphinx documentation build", last_output(result.stdout, 50))
-        else:
-            harness.pass_("Sphinx documentation build")
-
-
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--full", action="store_true", help="also build the core library and documentation")
@@ -514,7 +498,6 @@ def main() -> int:
         check_demos_build(harness)
         check_paper_index_build(harness)
         check_g2_stress(harness)
-        check_documentation_build(harness)
 
     passed, warnings, failures = harness.summary()
     if args.report:

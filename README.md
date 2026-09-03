@@ -74,7 +74,7 @@ runtime delegates allocation to the configured backend.
 | Benchmarks and tests | [`tests/`](tests/) | YCSB-C, allocator tests, basic tests, and correctness tests |
 | Applications | [`apps/`](apps/) | The STAMP transactional-memory benchmark suite |
 | Examples | [`demos/`](demos/) | Minimal single-process and multi-process data-structure examples |
-| Documentation | [`website/`](website/) | Sphinx documentation in Chinese and English |
+| Documentation | [SHM-SDK/docs](https://github.com/SHM-SDK/docs) | Sphinx documentation and technical blog in Chinese and English |
 
 <details>
 <summary><strong>Repository layout</strong></summary>
@@ -87,8 +87,7 @@ shm-pcc-sdk/
 ├── malloc/        # Shared-memory allocator implementations
 ├── shm-lib/       # Core shared-memory runtime library
 ├── stm/           # Software transactional memory implementations
-├── tests/         # Benchmarks, unit tests, and correctness tests
-└── website/       # Sphinx documentation sources
+└── tests/         # Benchmarks, unit tests, and correctness tests
 ```
 
 </details>
@@ -205,25 +204,24 @@ before running it.
 
 | Resource | Description |
 | --- | --- |
-| [Documentation home](website/zh/docs/index.md) | Main Chinese documentation index |
-| [Architecture](website/zh/docs/content/architecture.md) | Design and component relationships |
-| [User guide](website/zh/docs/user-guide.md) | Installation, configuration, and usage |
-| [Developer guide](website/zh/docs/developer-guide.md) | Repository and development workflow |
-| [`shm-lib` API](website/zh/docs/api/shm-lib-api.md) | Runtime API overview |
-| [English documentation](website/en/index.md) | English documentation entry point |
+| [Documentation home](https://shm-sdk.github.io/docs/zh/) | Main Chinese documentation index |
+| [Architecture](https://shm-sdk.github.io/docs/zh/content/architecture.html) | Design and component relationships |
+| [User guide](https://shm-sdk.github.io/docs/zh/user-guide.html) | Installation, configuration, and usage |
+| [Developer guide](https://shm-sdk.github.io/docs/zh/developer-guide.html) | Repository and development workflow |
+| [`shm-lib` API](https://shm-sdk.github.io/docs/zh/api/shm-lib-api.html) | Runtime API overview |
+| [English documentation](https://shm-sdk.github.io/docs/en/) | English documentation entry point |
 
-Build the documentation locally with:
+Documentation source and local build instructions now live in the standalone
+[SHM-SDK/docs](https://github.com/SHM-SDK/docs) repository:
 
 ```bash
-cd website
+git clone https://github.com/SHM-SDK/docs.git
+cd docs
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 make html
 ```
-
-The generated site is written to `website/_build/html/`. For live preview, run
-`website/serve.sh`.
 
 ## Testing and evaluation
 
@@ -261,7 +259,7 @@ Contributions are welcome. Before opening a pull request:
 1. Keep changes scoped and document any hardware assumptions.
 2. Add or update the closest relevant test or benchmark.
 3. Run the affected build and correctness checks.
-4. Follow the [contributing guide](website/zh/docs/contributing.md).
+4. Follow the [contributing guide](https://shm-sdk.github.io/docs/zh/contributing.html).
 
 Please report bugs and feature requests through
 [GitHub Issues](https://github.com/SHM-SDK/SHM-SDK/issues).

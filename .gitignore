@@ -36,7 +36,6 @@ memory-bank
 # Test output files
 *.txt
 !CMakeLists.txt
-!website/requirements.txt
 *.log
 output.txt
 throughput.txt
@@ -45,9 +44,6 @@ metric.txt
 # Documentation build
 docs/_build/
 docs/html/
-website/_build/
-website/.venv/
-website/.venv-*/
 
 # Large local images and packaged artifacts
 *.tar
