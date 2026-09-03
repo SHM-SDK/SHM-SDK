@@ -23,8 +23,8 @@ bundle exec jekyll serve --host 0.0.0.0
 
 启动成功后，在浏览器中访问：
 
-- **本地访问**: http://localhost:4000/shm-pcc-sdk/
-- **网络访问**: http://YOUR_IP:4000/shm-pcc-sdk/
+- **本地访问**: http://localhost:4000/SHM-SDK/
+- **网络访问**: http://YOUR_IP:4000/SHM-SDK/
 
 ## 🛑 停止服务器
 

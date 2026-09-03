@@ -5,7 +5,7 @@ concurrent systems, then connects those ideas to the design choices in
 CXL-SDK.
 
 The first articles are being prepared in Chinese. Visit the
-<a href="/shm-pcc-sdk/zh/blog/">Chinese technical blog</a> for the current
+<a href="/SHM-SDK/zh/blog/">Chinese technical blog</a> for the current
 article roadmap and drafts.
 
 ```{toctree}

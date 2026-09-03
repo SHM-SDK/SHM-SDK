@@ -20,8 +20,8 @@ nav_exclude: false
 
 ```bash
 # 克隆仓库
-git clone https://github.com/promisivia/shm-pcc-sdk.git
-cd shm-pcc-sdk
+git clone https://github.com/SHM-SDK/SHM-SDK.git
+cd SHM-SDK
 
 # 构建核心库
 cd shm-lib
@@ -70,12 +70,12 @@ cd tests/YCSB-C
 
 ## 📝 许可证
 
-本项目采用 [MIT License](https://github.com/promisivia/shm-pcc-sdk/blob/main/LICENSE)。
+本项目采用 [MIT License](https://github.com/SHM-SDK/SHM-SDK/blob/main/LICENSE)。
 
 ## 🔗 相关链接
 
-- [GitHub 仓库](https://github.com/promisivia/shm-pcc-sdk)
-- [问题追踪](https://github.com/promisivia/shm-pcc-sdk/issues)
+- [GitHub 仓库](https://github.com/SHM-SDK/SHM-SDK)
+- [问题追踪](https://github.com/SHM-SDK/SHM-SDK/issues)
 - [CXL 规范](https://www.computeexpresslink.org/)
 
 ---

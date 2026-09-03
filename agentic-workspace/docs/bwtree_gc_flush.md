@@ -25,7 +25,7 @@ add_ycsbc_executable(
 Build it with:
 
 ```bash
-cd /home/wfn/shm-pcc-sdk/tests/YCSB-C
+cd /home/wfn/SHM-SDK/tests/YCSB-C
 ./build.sh cc_mq_gc_flush
 ```
 

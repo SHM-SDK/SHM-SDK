@@ -534,5 +534,5 @@ public:
 lang: en
 ---
 
-For more information, see the [Chinese API Reference](https://promisivia.github.io/shm-pcc-sdk/zh/api/)
-or open an [Issue](https://github.com/promisivia/shm-pcc-sdk/issues).
+For more information, see the [Chinese API Reference](https://shm-sdk.github.io/SHM-SDK/zh/api/)
+or open an [Issue](https://github.com/SHM-SDK/SHM-SDK/issues).

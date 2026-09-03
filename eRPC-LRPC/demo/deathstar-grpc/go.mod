@@ -1,10 +1,10 @@
-module github.com/promisivia/shm-pcc-sdk/eRPC-LRPC/demo/deathstar-grpc
+module github.com/SHM-SDK/SHM-SDK/eRPC-LRPC/demo/deathstar-grpc
 
 go 1.18
 
 require (
 	github.com/delimitrou/DeathStarBench/tree/master/hotelReservation/services/geo/proto v0.0.0
-	github.com/promisivia/shm-pcc-sdk/eRPC-LRPC/adapters/grpc-go v0.0.0
+	github.com/SHM-SDK/SHM-SDK/eRPC-LRPC/adapters/grpc-go v0.0.0
 	google.golang.org/protobuf v1.31.0
 )
 
@@ -19,4 +19,4 @@ require (
 
 replace github.com/delimitrou/DeathStarBench/tree/master/hotelReservation/services/geo/proto => ../../third_party/DeathStarBench/hotelReservation/services/geo/proto
 
-replace github.com/promisivia/shm-pcc-sdk/eRPC-LRPC/adapters/grpc-go => ../../adapters/grpc-go
+replace github.com/SHM-SDK/SHM-SDK/eRPC-LRPC/adapters/grpc-go => ../../adapters/grpc-go

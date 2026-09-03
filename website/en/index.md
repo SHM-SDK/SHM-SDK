@@ -20,8 +20,8 @@ Welcome to the CXL-SDK documentation center! This is a comprehensive software de
 
 ```bash
 # Clone the repository
-git clone https://github.com/promisivia/shm-pcc-sdk.git
-cd shm-pcc-sdk
+git clone https://github.com/SHM-SDK/SHM-SDK.git
+cd SHM-SDK
 
 # Build core library
 cd shm-lib
@@ -70,12 +70,12 @@ We welcome community contributions! See the [Contributing Guide]({{ site.baseurl
 
 ## 📝 License
 
-This project is licensed under the [MIT License](https://github.com/promisivia/shm-pcc-sdk/blob/main/LICENSE).
+This project is licensed under the [MIT License](https://github.com/SHM-SDK/SHM-SDK/blob/main/LICENSE).
 
 ## 🔗 Related Links
 
-- [GitHub Repository](https://github.com/promisivia/shm-pcc-sdk)
-- [Issue Tracker](https://github.com/promisivia/shm-pcc-sdk/issues)
+- [GitHub Repository](https://github.com/SHM-SDK/SHM-SDK)
+- [Issue Tracker](https://github.com/SHM-SDK/SHM-SDK/issues)
 - [CXL Specification](https://www.computeexpresslink.org/)
 
 ---

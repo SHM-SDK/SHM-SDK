@@ -18,9 +18,9 @@
 
 ## 发布前
 
-- [ ] 更新 [`CHANGELOG.md`](https://github.com/promisivia/shm-pcc-sdk/blob/master/CHANGELOG.md) 并确定版本号。
-- [ ] 检查 [`THIRD_PARTY_NOTICES.md`](https://github.com/promisivia/shm-pcc-sdk/blob/master/THIRD_PARTY_NOTICES.md)。
-- [ ] 确认 [`SECURITY.md`](https://github.com/promisivia/shm-pcc-sdk/blob/master/SECURITY.md) 中的支持范围。
+- [ ] 更新 [`CHANGELOG.md`](https://github.com/SHM-SDK/SHM-SDK/blob/master/CHANGELOG.md) 并确定版本号。
+- [ ] 检查 [`THIRD_PARTY_NOTICES.md`](https://github.com/SHM-SDK/SHM-SDK/blob/master/THIRD_PARTY_NOTICES.md)。
+- [ ] 确认 [`SECURITY.md`](https://github.com/SHM-SDK/SHM-SDK/blob/master/SECURITY.md) 中的支持范围。
 - [ ] 保存 harness JSON 报告并记录硬件验证结果。
 - [ ] 检查 GitHub 分支保护、Security Advisories、Issues 与 Discussions 配置。
 - [ ] 使用源码归档或 release assets 分发大型镜像，不把它们提交到 Git。

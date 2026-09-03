@@ -48,13 +48,13 @@ We are committed to providing a welcoming and inclusive environment for all cont
 1. **Fork the Repository**
    ```bash
    # Fork on GitHub, then clone your fork
-   git clone https://github.com/your-username/shm-pcc-sdk.git
-   cd shm-pcc-sdk
+   git clone https://github.com/your-username/SHM-SDK.git
+   cd SHM-SDK
    ```
 
 2. **Add Upstream Remote**
    ```bash
-   git remote add upstream https://github.com/original-org/shm-pcc-sdk.git
+   git remote add upstream https://github.com/original-org/SHM-SDK.git
    ```
 
 3. **Create Development Branch**
@@ -429,7 +429,7 @@ Closes #123
 
 - [Developer Guide](developer-guide.md)
 - [User Guide](user-guide.md)
-- [Chinese API Reference](https://promisivia.github.io/shm-pcc-sdk/zh/api/)
+- [Chinese API Reference](https://shm-sdk.github.io/SHM-SDK/zh/api/)
 - GitHub Discussions
 - GitHub Issues
 

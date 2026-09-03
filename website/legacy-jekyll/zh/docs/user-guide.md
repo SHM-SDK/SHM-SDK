@@ -54,8 +54,8 @@ permalink: /zh/docs/user-guide.html
 #### 1. Clone Repository
 
 ```bash
-git clone https://github.com/your-org/shm-pcc-sdk.git
-cd shm-pcc-sdk
+git clone https://github.com/your-org/SHM-SDK.git
+cd SHM-SDK
 ```
 
 #### 2. Install System Dependencies
@@ -544,4 +544,4 @@ A: Supports YCSB standard workloads (A-F) as well as custom workloads. Workload 
 
 ---
 
-**Need more help?** Please see [API Reference](API_REFERENCE.md) or open an [Issue](https://github.com/your-org/shm-pcc-sdk/issues).
+**Need more help?** Please see [API Reference](API_REFERENCE.md) or open an [Issue](https://github.com/your-org/SHM-SDK/issues).

@@ -6,7 +6,7 @@ import (
 	"os"
 
 	geopb "github.com/delimitrou/DeathStarBench/tree/master/hotelReservation/services/geo/proto"
-	grpclrpc "github.com/promisivia/shm-pcc-sdk/eRPC-LRPC/adapters/grpc-go"
+	grpclrpc "github.com/SHM-SDK/SHM-SDK/eRPC-LRPC/adapters/grpc-go"
 	"google.golang.org/protobuf/proto"
 )
 

@@ -1,4 +1,4 @@
-module github.com/promisivia/shm-pcc-sdk/eRPC-LRPC/adapters/grpc-go
+module github.com/SHM-SDK/SHM-SDK/eRPC-LRPC/adapters/grpc-go
 
 go 1.18
 

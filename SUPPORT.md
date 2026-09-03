@@ -2,7 +2,7 @@
 
 CXL-SDK is maintained as an open-source research project.
 
-- Use [GitHub Issues](https://github.com/promisivia/shm-pcc-sdk/issues) for
+- Use [GitHub Issues](https://github.com/SHM-SDK/SHM-SDK/issues) for
   reproducible bugs and focused feature requests.
 - Use GitHub Discussions for design questions and general usage help when that
   feature is enabled.

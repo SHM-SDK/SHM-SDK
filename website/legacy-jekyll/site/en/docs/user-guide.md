@@ -72,8 +72,8 @@ sudo yum install -y \
 
 ```bash
 # Clone the repository
-git clone https://github.com/promisivia/shm-pcc-sdk.git
-cd shm-pcc-sdk
+git clone https://github.com/SHM-SDK/SHM-SDK.git
+cd SHM-SDK
 
 # Build core library
 cd shm-lib

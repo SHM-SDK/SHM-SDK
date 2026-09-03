@@ -3,8 +3,8 @@
 
 title: "SHM-PCC-SDK Documentation"
 description: "Comprehensive documentation for SHM-PCC-SDK - A CXL/UB shared memory programming SDK"
-url: "https://promisivia.github.io"
-baseurl: "/shm-pcc-sdk"
+url: "https://shm-sdk.github.io"
+baseurl: "/SHM-SDK"
 
 # 主题设置
 theme: just-the-docs
@@ -32,9 +32,9 @@ nav_external_links:
 # 导航设置
 aux_links:
   "GitHub":
-    - "https://github.com/promisivia/shm-pcc-sdk"
+    - "https://github.com/SHM-SDK/SHM-SDK"
   "Issues":
-    - "https://github.com/promisivia/shm-pcc-sdk/issues"
+    - "https://github.com/SHM-SDK/SHM-SDK/issues"
 
 # 网站信息
 author:
@@ -43,7 +43,7 @@ author:
 
 # 社交链接
 social:
-  github: "promisivia/shm-pcc-sdk"
+  github: "SHM-SDK/SHM-SDK"
 
 # Markdown 设置
 markdown: kramdown

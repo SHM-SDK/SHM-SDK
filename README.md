@@ -115,8 +115,8 @@ sudo apt-get install -y \
 ### Build the core library
 
 ```bash
-git clone https://github.com/promisivia/shm-pcc-sdk.git
-cd shm-pcc-sdk
+git clone https://github.com/SHM-SDK/SHM-SDK.git
+cd SHM-SDK
 
 cmake -S shm-lib -B build/shm-lib
 cmake --build build/shm-lib --parallel
@@ -264,7 +264,7 @@ Contributions are welcome. Before opening a pull request:
 4. Follow the [contributing guide](website/zh/docs/contributing.md).
 
 Please report bugs and feature requests through
-[GitHub Issues](https://github.com/promisivia/shm-pcc-sdk/issues).
+[GitHub Issues](https://github.com/SHM-SDK/SHM-SDK/issues).
 
 Project policies: [contributing](CONTRIBUTING.md) ·
 [code of conduct](CODE_OF_CONDUCT.md) · [security](SECURITY.md) ·

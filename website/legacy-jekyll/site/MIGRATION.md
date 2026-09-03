@@ -53,7 +53,7 @@ bundle install
 bundle exec jekyll serve
 ```
 
-访问: http://localhost:4000/shm-pcc-sdk/
+访问: http://localhost:4000/SHM-SDK/
 
 ### 构建网站
 
@@ -106,7 +106,7 @@ description: 文档描述
    ```
 
 2. 访问部署的网站：
-   https://promisivia.github.io/shm-pcc-sdk/
+   https://shm-sdk.github.io/SHM-SDK/
 
 ## 📚 更多信息
 

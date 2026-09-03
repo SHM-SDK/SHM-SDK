@@ -537,5 +537,5 @@ public:
 
 ---
 
-For more information, see [API Reference](API_REFERENCE.md) or open an [Issue](https://github.com/your-org/shm-pcc-sdk/issues).
+For more information, see [API Reference](API_REFERENCE.md) or open an [Issue](https://github.com/your-org/SHM-SDK/issues).
 

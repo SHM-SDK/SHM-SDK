@@ -536,4 +536,4 @@ public:
 ```
 
 
-For more information, see [API Reference](api/index.md) or open an [Issue](https://github.com/promisivia/shm-pcc-sdk/issues).
+For more information, see [API Reference](api/index.md) or open an [Issue](https://github.com/SHM-SDK/SHM-SDK/issues).

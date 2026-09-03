@@ -25,8 +25,8 @@ website/
 
 ## 🔄 URL 结构
 
-- **中文（默认）**: `/shm-pcc-sdk/` 或 `/shm-pcc-sdk/zh/`
-- **英文**: `/shm-pcc-sdk/en/`
+- **中文（默认）**: `/SHM-SDK/` 或 `/SHM-SDK/zh/`
+- **英文**: `/SHM-SDK/en/`
 
 ## 📝 添加新文档
 
@@ -128,8 +128,8 @@ bundle exec jekyll serve
 ```
 
 访问：
-- http://localhost:4000/shm-pcc-sdk/ （中文）
-- http://localhost:4000/shm-pcc-sdk/en/ （英文）
+- http://localhost:4000/SHM-SDK/ （中文）
+- http://localhost:4000/SHM-SDK/en/ （英文）
 
 
 
